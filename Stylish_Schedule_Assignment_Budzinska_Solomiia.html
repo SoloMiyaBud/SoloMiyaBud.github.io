@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Schedule for day</title>
+  </head>
+  <body>
+    <style>
+  table {
+    border-collapse:collapse;
+    border:solid 3px #000000;
+    background-color:#0e7765;
+    color:#ffffff;
+  }
+  td {
+    padding:10px;
+    border:solid 2px #000000;
+  }
+  tr.meetings {
+    background-color:#af18cf;
+  }
+  th {
+    background-color:#cfaf18;
+    padding-bottom:15px;
+    font-size:20px;
+  }
+  #family {
+    font-size:15px;
+    font-weight:bold;
+    color:#f0a580;
+  }
+</style>
+      <h1>Schedule for day</h1>
+     <table><tr><th>Activities</th><th>Time</th></tr>
+  <tr>
+    <td>Wake up and exercise</td>
+    <td>6:00am</td></tr>
+   <tr><td>Shower and get dressed</td><td>7:00am</td><tr>
+    <td>Commute to work</td>
+    <td>8:00am</td></tr><tr class="meetings">
+    <td>Work meetings and tasks.</td><td>9:00am - 12:00pm</td></tr>
+    <tr><td> Lunch break</td>
+    <td>12:00pm - 1:00pm</td></tr>
+    <tr class="meetings"><td>More work meetings and tasks</td>
+    <td>1:00pm - 5:00pm</td></tr>
+    <tr><td>Commute back home</td>
+    <td>5:00pm</td></tr>
+    <tr><td id="family">Dinner with family or friends</td>
+    <td>6:00pm - 7:00pm</td></tr>
+  </tr></table>
+  </body>
+</html>
+<colgroup>
+    <col class="meetings">
+    <col span="2">
+  </colgroup>
