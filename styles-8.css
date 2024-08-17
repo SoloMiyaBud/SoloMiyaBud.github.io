@@ -2,17 +2,15 @@ body{
 padding: 25px;
 background-image:url(Bungy.jpeg);
 }
-box { 
-  width:10%;
-  height:100%;
-  padding-left: 40px;
-  position: absolute;
-  background-color:  #EC9706;
-  }
-.title {
+h1 {
 	color: #5C6AC4;
 }
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+width:10%;
+  height:100%;
+  padding-left: 40px;
+  position: absolute;
+  background-color:  #EC9706;
 }
