@@ -2,7 +2,9 @@ body{
 padding: 25px;
 }
 .wrapper {
-background-image:url(Unknown-7.jpeg);
+background-image:url(deforestation.jpeg);
+  background-size: cover;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 width:10%;
   height:100%;
