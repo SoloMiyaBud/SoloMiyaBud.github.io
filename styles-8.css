@@ -1,11 +1,8 @@
 body{
 padding: 25px;
-background-image:url(Unknown-7.jpeg);
-}
-h1 {
-	color: ;
 }
 .wrapper {
+background-image:url(Unknown-7.jpeg);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 width:10%;
