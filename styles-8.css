@@ -1,0 +1,25 @@
+body{
+  padding: 25px;
+}
+.nav { 
+  background-image:url(Bungy.jpeg);
+}
+.div { 
+  width:10%;
+  height:100%;
+  padding-left: 40px;
+  position: absolute;
+  background-color:  #EC9706;
+  }
+.title {
+	color: #5C6AC4;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+ border-collapse:collapse;
+    border:solid 3px #000000;
+    background-color:#0e7765;
+    color:#ffffff;
+}
