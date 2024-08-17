@@ -1,8 +1,6 @@
 body{
   padding: 25px;
-}
-nav { 
-  background-image:url(Bungy.jpeg);
+	background-image:url(Bungy.jpeg);
 }
 .div { 
   width:10%;
