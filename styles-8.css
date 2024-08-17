@@ -3,7 +3,6 @@ padding: 25px;
 }
 .wrapper {
 background-image:url(Unknown-7.jpeg);
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 width:10%;
   height:100%;
