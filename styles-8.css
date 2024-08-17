@@ -1,8 +1,8 @@
 body{
-  padding: 25px;
-	background-image:url(Bungy.jpeg);
+padding: 25px;
+background-image:url(Bungy.jpeg);
 }
-.div { 
+box { 
   width:10%;
   height:100%;
   padding-left: 40px;
@@ -15,9 +15,4 @@ body{
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
- border-collapse:collapse;
-    border:solid 3px #000000;
-    background-color:#0e7765;
-    color:#ffffff;
 }
