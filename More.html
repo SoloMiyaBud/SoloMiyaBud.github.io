@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>More</title>
+    <style>
+    
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column dense;
+    height: 400px;
+    padding: 10px;
+    background-color: green;
+  }
+  .grid-container div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .item3 {
+    grid-column-start: auto;
+    grid-column-end: span 2;
+  }
+  .item5 {
+    grid-row-start: auto;
+    grid-row-end: span 2;
+    }
+</style>
+  </head>
+  <body>
+      <h1 >More</h1> 
+<section class="grid-container">
+  <div class="item1"><b>42 MILLION</b>
+Trees cut down globally every day</div>
+  <div class="item2">Only <b>36%</b> Of the World's Rainforests remain intact</div>
+  <div class="item3"><b>0.06%</b> Of global forest lost per year between 2010 and 2020.</div>
+  <div class="item4"><b>3 Trillion</b> Trees left on the planet</div>
+  <div class="item5"><b>46%</b> Of trees that were on Earth have now been destroyed by humans</div>
+  <div class="item6">Forests cover <b>4.06 BILLION</b> Hectares of the Earth's Surface. But <b>420 Million </b> Hectares have been lost since 1990</div>
+</section>
+  </body>
+</html>
