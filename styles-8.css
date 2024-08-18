@@ -1,8 +1,10 @@
 body{
-padding: 25px;
-  background-image:url(images-1.jpeg);
- background-size: contain;
-background-repeat: no-repeat;
+margin: 0;
+height: 100vh; 
+background-image:url(images-1.jpeg);            
+background-size: cover; 
+background-position: center;
+background-repeat: no-repeat; 
 }
 h1 {
 	color: #1d3b55;
