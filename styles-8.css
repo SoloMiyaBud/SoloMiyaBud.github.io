@@ -4,6 +4,10 @@ padding: 25px;
  background-size: contain;
 background-repeat: no-repeat;
 }
+h1 {
+	color: #1d3b55;
+	text-align: center;
+  }
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
